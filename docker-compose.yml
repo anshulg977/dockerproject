@@ -17,7 +17,7 @@ services:
     volumes:
       - /var/lib/mobilebanking
   insurance:
-    image: trainerreyaz/insurance-image:latest
+    image: trainerreyaz/ins-image:latest
     ports:
       - "83:80"
     deploy:
